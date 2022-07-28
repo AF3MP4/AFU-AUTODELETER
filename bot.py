@@ -14,7 +14,7 @@ ADMINS = []
 for usr in environ.get("ADMINS").split():
     ADMINS.append(int(usr))
 
-START_MSG = "<b>ℍ𝕀 {}💗\n I'ᴍ A Sɪᴍᴘʟᴇ Bᴏᴛ Tᴏ Dᴇʟᴇᴛᴇ Gʀᴏᴜᴘ Mᴇssᴀɢᴇs Aғᴛᴇʀ A Sᴘᴇᴄɪғɪᴄ Tɪᴍᴇ😌</b>".
+START_MSG = "<b>𝐇𝐈 {}💗\n I'ᴍ A Sɪᴍᴘʟᴇ Bᴏᴛ Tᴏ Dᴇʟᴇᴛᴇ Gʀᴏᴜᴘ Mᴇssᴀɢᴇs Aғᴛᴇʀ A Sᴘᴇᴄɪғɪᴄ Tɪᴍᴇ😌</b>".
 
 
 User = Client(session_name=SESSION,
